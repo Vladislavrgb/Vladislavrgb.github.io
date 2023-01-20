@@ -1,0 +1,684 @@
+@font-face {
+  font-family: 'notoSans';
+  src: url('../fonts/NotoSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'notoSans';
+  src: url('../fonts/NotoSans-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: 'gila';
+  src: url('../fonts/Gila.ttf');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/sf/SFProDisplay-Medium.eot');
+  src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
+    url('../fonts/sf/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sf/SFProDisplay-Medium.woff2') format('woff2'),
+    url('../fonts/sf/SFProDisplay-Medium.woff') format('woff'),
+    url('../fonts/sf/SFProDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/sf/SFProDisplay-Regular.eot');
+  src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
+    url('../fonts/sf/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sf/SFProDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/sf/SFProDisplay-Regular.woff') format('woff'),
+    url('../fonts/sf/SFProDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/sf/SFProDisplay-Semibold.eot');
+  src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'),
+    url('../fonts/sf/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sf/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('../fonts/sf/SFProDisplay-Semibold.woff') format('woff'),
+    url('../fonts/sf/SFProDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+h1 {
+  font-family: "montserrat";
+  font-size: 64px;
+  line-height: 70px;
+}
+h2{
+  font-family: "montserrat";
+  font-size: 51px;
+  line-height: 62px;
+}
+body {
+  background-color: #000000;
+  color:white;
+  
+}
+.menu {
+  display: flex;
+  align-items:center;
+}
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.logo{
+  margin-left: 85px;
+}
+.authentication {
+  display:flex;
+}
+.logo_text{
+  margin-left: 8px;
+  margin-right: 108px;
+  font-family: 'gila';
+  font-size: 26px;
+}
+.icone_text {
+  margin-left: 14px;
+  height: 19px;
+  font-family: 'notoSans';
+  font-size: 18px;
+  
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 1px;
+}
+.purpure_color{
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  width: 900px;
+  height: 1000px;
+  right: 0;
+  top: 0;
+}
+.babayga{
+  z-index: 0;
+  margin-left: 280px;
+ 
+  width: 760px;
+  height: 440px;
+  filter: blur(125px);
+  background: rgba(250, 0, 255, 0.2);
+  transform: rotate(-105.26deg);
+}
+.platform {
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.platform_left {
+  width: 50%;
+  padding-top: 145px;
+  padding-left: 100px;
+}
+
+.line {
+  position: absolute;
+  width: 140px;
+  height: 0px;
+  left: 68px;
+  top: 540px;
+  border: 2px solid #FFFFFF;
+  background-color: #fff;
+  transform: rotate(120.61deg);
+}
+.line_blue{
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  left: 75px;
+  top: 450px;
+  background: rgba(96, 92, 234,0.5);
+    filter: blur(50px);
+}
+.pl_text {
+  margin-top: 130px;
+  font-family: "notoSans";
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+.platform_right {
+margin-right: 157px;
+  
+  
+  
+}
+.phone {
+  display: inline-block;
+  background-image: url(../images/phone.png);
+  width: 333px;
+  height: 668px;
+  font-family: 'SF Pro Display';
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 38px;
+
+}
+.search_img {
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.search_text{
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.search {
+  display: flex;
+  margin-left: 11%;
+  font-weight: normal;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #B7B7B7;
+  width: 260px;
+  background-color: #48505C;
+  box-shadow: 0px 6.31049px 37.863px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+}
+
+.fone {
+  position: absolute;
+  border-radius: 25px;
+  height: 640px;
+  width: 295px;
+  margin-top: 38px;
+  margin-left: 17px;
+  background-color: #020a14;
+  z-index: -1;
+}
+
+.icone_phone {
+  padding-top: 31px;
+  margin-left: 50px;
+  
+}
+.icone_phone_right {
+  margin-left: 170px;
+}
+.phone_fl{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 16px;
+}
+.phone_left{
+  padding-top: 7px;
+  margin-left: 38px;
+  width: 32px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.phone_right {
+  margin-right: 28px;
+  padding-top: 5px;
+  width: 32px;
+  height: 27px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.alcatraz {
+  font-family: 'SF Pro Display';
+  margin-left: 36px;
+  width: 260px;
+  background: #171C23;
+  box-shadow: 0px 6.31049px 37.863px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  
+}
+.lauba {
+  font-family: 'SF Pro Display';
+  margin-left: 36px;
+  width:260px;
+  background: #171C23;
+  margin-top: 20px;
+  box-shadow: 0px 6.31049px 37.863px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+}
+.phone_name {
+  margin-top: 9px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.phone_text {
+  margin-top: 5px;
+  font-weight: normal;
+  color: #908F94;
+}
+.phone_icone {
+  margin-top: 18px;
+  font-weight: normal;
+  font-size: 10px;
+}
+.phone_call {
+  margin-top: 9px;
+  padding-bottom: 15px;
+  font-weight: normal;
+  font-size: 10px;
+}
+.bord_img {
+  border-radius: 5px 5px 0px 0px;
+}
+.phone_text_col{
+  margin-left: 20px;
+}
+
+/*2блок*/
+.dowload {
+  display: flex;
+  justify-content: space-between;
+  font-family: "montserrat";
+  margin-top: 75px;
+  font-size: 35px;
+  margin-left: 100px;
+  line-height: 70px;
+  margin-right: 130px;
+}
+.dowload_right{
+  display: flex;
+  align-items: center;
+}
+.dowload_img{
+  margin-right: 27px;
+}
+/*3й блок*/
+.cookies{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+  height: 93px;
+  background-color: #212834;
+  font-family: "notoSans";
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 100px;
+  padding-right: 25px;
+}
+.cookies_but{
+  width: 132px;
+
+  height: 50px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.5px solid #FFFFFF;
+  border-radius: 6px;
+}
+.cookies_text{
+  display: flex;
+  align-items: center;
+}
+/*4й блок*/
+.member{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.member_pos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 22px;
+  height: 312px;
+  width: 503px;
+  
+}
+.member_pozit {
+  width: 340px;
+  margin-left: 55px;
+}
+h3 {
+  font-family: "notoSans";
+  font-size: 30px;
+  line-height: 41px;
+  font-weight: 700;
+}
+.member_text {
+    font-family: "notoSans";
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+}
+.member_h {
+  margin-bottom: 30px;
+}
+.test {
+
+  position: absolute;
+  overflow: hidden;
+  width: 415px;
+  height: 500px;
+  padding-right: 150px;
+  
+}
+.test1{
+  margin-right: 10%;
+  transform: rotate(90deg);
+}
+/*5й блок */ 
+.phone_two{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.phone_twoL {
+  width: 500px;
+}
+.twoR_text {
+  padding-right: 35px;
+}
+.mission {
+  width: 358px;
+}
+.text_global {
+  font-family: "notoSans";
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.purpure_elipse {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  margin-right: 240px;
+  
+  width: 85px;
+  height: 85px;
+  background: #F101BF;
+  opacity: 0.7;
+  filter: blur(50px);
+}
+
+/*Левый телефон из экрана*/
+.phone_twow {
+  margin-top: 100px;
+  height: 900px;
+  
+}
+.left_phone {
+  position: absolute;
+  z-index: 0;
+}
+.fone2{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 20px;
+    width: 455px;
+    height: 730px;
+  background-color: #020a14;
+  z-index: -1;
+}
+.phone_icone2 {
+  display: flex;
+  margin-left: 80px;
+  padding-top: 46px;
+
+}
+.phone_twowL{
+  transform: rotate(90deg);
+  margin-left: 145px;
+}
+.new_test {
+  position: absolute;
+  height: 900px;
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.time {
+  font-family: 'SF Pro Display';
+  font-weight: 500;
+  font-size: 16px;
+}
+.icone_right {
+  margin-left: 263px;
+}
+.icone_lite {
+  margin-left: 3px;
+}
+.icone_new {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 57px;
+  margin-top: 22px;
+  margin-right: 7px;
+}
+.search_new {
+  margin-top: 25px;
+  height: 70px;
+  font-family: 'SF Pro Display';
+  width: 395px;
+  margin-left: 55px;
+  display: flex;
+  font-size: 20px;
+  line-height: 26px;
+  color: #B7B7B7;
+  background-color: #48505C;
+  box-shadow: 0px 6.31049px 37.863px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+}
+.alcatraz_new {
+  margin-top: 23px;
+  margin-left: 53px;
+  background: #171C23;
+  border-radius: 12px 12px 0px 0px;
+    box-shadow: 0px 6.31049px 37.863px rgba(0, 0, 0, 0.02);
+}
+.alcaraz_new2{
+  margin-left: 25px;
+  margin-top: 25px;
+  height: 173px;
+  font-family: 'SF Pro Display';
+  
+}
+.time_top {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+.time_right{
+  margin-left: 70px;
+  display: flex;
+    align-items: center;
+}
+.time_btsp {
+  margin-right: 10px;
+}
+.railroad {
+  color: #908F94;
+  font-size: 19px;
+}
+.alcatraz_name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.alctr {
+  border-radius: 5px 5px 0px 0px;
+  margin-left: 53px;
+  margin-top: 23px;
+}
+.phone_twowR {
+  margin-top: 240px;
+  margin-left: 160px;
+  margin-right: 150px;
+}
+.shotsoflouis {
+  margin-top: 950px;
+  width: 100%;
+  background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%),url(../images/shotsoflouis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 830px;
+  
+}
+.phone_poz {
+  position: relative;
+  top:-55px;
+  left: -13px;
+
+}
+.verification {
+  font-size: 27px;
+  margin-left: 39px;
+  margin-top: 20px;
+}
+.progress {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 53px;
+}
+.chek {
+  padding-top: 10px;
+  width: 33px;
+  height: 23px;
+  font-size: 13.5px;
+  border-radius: 50%;
+  text-align: center;
+  color: #000000;
+}
+.chek_number{
+  background-color: #908F94;
+}
+.chek_chek{
+  background-color: #fff;
+}
+.chek2{
+  margin-top: 14px;
+  width:30px;
+  height: 5px;
+  background-color: #908F94;
+}
+.chek3 {
+  margin-top: 14px;
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+}
+
+.progress_text {
+  display: flex;
+  margin-left: 46px; 
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: 'SF Pro Display';
+  font-weight: normal;
+}
+.progress_txt {
+  width: 43px;
+  margin-right: 20px;
+  text-align: center;
+}
+.progress_color {
+  color: #908F94;
+}
+.tel_left_body {
+  margin-top: 70px;
+  height: 177px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.tel_left_body2 {
+    margin-top: 94px;
+      height: 154px;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+      align-items: center;
+}
+.tel_left_text {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.tel_left_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264.5px;
+  height: 47.4px;
+  background: #343a43;
+  border-radius: 47.3645px;
+}
+.tel_left_box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59.16px;
+  height: 59.16px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+.loog{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.looog {
+  margin-top: 175px;
+  width: 106px;
+  height: 4px;
+  background: #FFFFFF;
+  border-radius: 78.9409px;
+}
+.phone_poz2 {
+  position: relative;
+  top: -55px;
+  left: -13px;
+}
+.telefon1_fon {
+  position: relative;
+  width: 333px;
+  height: 668px;
+  background-color: green;
+  z-index: 1;
+  top:0px;
+  left:1px;
+}
+.shotsoflouis_block {
+  display: flex;
+  margin-left: 30px;
+}
+.fon_phone_shot1 {
+  background-color: #020a14;
+  width: 299px;
+  height: 631px;
+  margin-right: 45px;
+}
+.fon_phone_shot2 {
+      background-color: #020a14;
+      width: 299px;
+      height: 631px;
+}

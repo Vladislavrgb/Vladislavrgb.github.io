@@ -1,0 +1,44 @@
+body{
+    background: #000000 top left/50px 50px;
+    
+      color: white;
+}
+.shotsoflouis
+{
+      width: 100%;
+      background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%), url(images/shotsoflouis.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 830px;
+      
+}
+
+.telefon1 {
+  position: relative;
+  left: -17px;
+  width: 333px;
+  height: 668px;
+  margin-right: 30px;
+  background: url(images/phone.png) no-repeat;
+  background-position: center;
+}
+.grid {
+
+  width: 333px;
+  height: 668px;
+  background: green top left/50px 5px;
+  z-index: 1;
+  top: 0px;
+  left: 1px;
+}
+.telefon1_fon {
+  margin-left: 22px;
+  width: 300px;
+  background-clip: 2px;
+  background-color: #fff;
+  margin-right: 30px;
+}
+.loh{
+  display: flex;
+}
